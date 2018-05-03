@@ -11,3 +11,9 @@ Maven
 To run the tests, simply clone the repository and run the following maven command:
 mvn clean install
 
+# Jenkins
+To run the tests on Jenkins follow the following steps
+    1. Create a new job
+    2. provide the source code repository path: https://github.com/poojadixit1908/parcelpointautomation
+    3. Run the mvn clean install from jenkins job build configuration
+
