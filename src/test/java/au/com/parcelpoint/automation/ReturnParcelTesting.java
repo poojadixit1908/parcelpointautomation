@@ -32,7 +32,7 @@ public class ReturnParcelTesting {
         //WebDriverWait wait = new WebDriverWait(driver, 10);
         //WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ppIframeWidget-parcelpoint-stores-widget")));
         //Not sure why the above statement is not working - need to investigate more
-        Thread.sleep(5000); //sleeping for 5 seconds
+        Thread.sleep(10000); //sleeping for 10 seconds
         //initialize BookParcePage
         bookParcelPage = new BookParcelPage(driver);
         returnDetailsPage = new ReturnDetailsPage(driver);
